@@ -1,0 +1,96 @@
+# -------------------------------------------------
+# Python
+# -------------------------------------------------
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+.coverage
+htmlcov/
+
+# -------------------------------------------------
+# Virtual environments and Conda
+# -------------------------------------------------
+.venv/
+venv/
+env/
+ENV/
+.conda/
+conda-meta/
+.python-version
+
+# -------------------------------------------------
+# Jupyter
+# -------------------------------------------------
+.ipynb_checkpoints/
+
+# -------------------------------------------------
+# IDE and editor files
+# -------------------------------------------------
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+.DS_Store
+Thumbs.db
+
+# -------------------------------------------------
+# Logs and temporary files
+# -------------------------------------------------
+*.log
+*.tmp
+*.temp
+*.bak
+
+# -------------------------------------------------
+# Generated simulation directory
+# -------------------------------------------------
+out_ficks_coupled_2_ODEs_Final/
+
+# -------------------------------------------------
+# Large/raw finite-element output
+# Keep curated figures and CSV tables under results/
+# -------------------------------------------------
+results/fields/*
+!results/fields/.gitkeep
+
+*.h5
+*.hdf5
+*.bp
+*.bp4
+*.bp5
+*.pvd
+*.vtu
+*.pvtu
+*.xdmf
+
+# -------------------------------------------------
+# ParaView state and cache files
+# -------------------------------------------------
+*.pvsm
+*.series
+.vtk/
+
+# -------------------------------------------------
+# Matplotlib and generated local previews
+# -------------------------------------------------
+*.svg.tmp
+matplotlib-cache/
+
+# -------------------------------------------------
+# Office temporary files
+# -------------------------------------------------
+~$*.xlsx
+~$*.xls
+~$*.docx
+~$*.pptx
+
+# -------------------------------------------------
+# OS-specific files
+# -------------------------------------------------
+.DS_Store
+desktop.ini
